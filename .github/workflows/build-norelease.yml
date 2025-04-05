@@ -18,11 +18,11 @@ jobs:
 
           platform:
             - generic_rk3588
-            - generic_aarch64
+            #- generic_aarch64
 
           distro:
             - arch
-            - artix_runit
+            #- artix_runit
 
     steps:
       - uses: actions/checkout@v4
